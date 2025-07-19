@@ -13,3 +13,13 @@ Columns in the table:
 - **Notes** – contextual notes (e.g., tax situations).
 
 These files are static and intended only for reference.
+
+## Metrics
+
+The `metrics.py` helper aggregates recordings or event logs to simple counts per day. Provide a JSON lines or CSV file containing a `timestamp` (or `date`) field for each recording:
+
+```bash
+python metrics.py recordings.jsonl
+```
+
+This prints one line per day with the number of records observed on that date.
