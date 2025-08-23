@@ -18,7 +18,7 @@ def parse_args():
     parser.add_argument(
         "--output",
         type=Path,
-        help="Optional path to write the aggregated counts as JSON",
+        help="Optional path to write the aggregated counts as JSON or CSV",
     )
     return parser.parse_args()
 
@@ -55,9 +55,21 @@ def metric_counts_per_day(records):
 
 
 def write_counts(counts, path: Path) -> None:
-    """Write ``counts`` mapping to ``path`` in JSON format."""
-    with path.open("w") as f:
-        json.dump(dict(counts), f, indent=2)
+    """Write ``counts`` mapping to ``path``.
+
+    The format is determined by the file suffix: ``.json`` produces a JSON
+    object mapping days to counts, while ``.csv`` writes a two-column CSV with
+    ``date`` and ``count`` headers.
+    """
+
+    with path.open("w", newline="") as f:
+        if path.suffix == ".csv":
+            writer = csv.writer(f)
+            writer.writerow(["date", "count"])
+            for day, count in sorted(counts.items()):
+                writer.writerow([day, count])
+        else:
+            json.dump(dict(counts), f, indent=2)
 
 
 def main():
