@@ -23,6 +23,8 @@ python metrics.py recordings.jsonl
 ```
 
 This prints one line per day with the number of records observed on that date.
+Pass ``--output`` with a ``.json`` or ``.csv`` file to write the aggregated
+counts in that format instead of printing them.
 
 ## Dream Script
 
