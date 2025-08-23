@@ -9,8 +9,17 @@ from pathlib import Path
 def parse_args():
     parser = argparse.ArgumentParser(description="Aggregate metric counts per day")
     parser.add_argument("file", help="Input file containing recordings")
-    parser.add_argument("--format", choices=["json", "csv"], default="json",
-                        help="Format of the input file: json lines or CSV")
+    parser.add_argument(
+        "--format",
+        choices=["json", "csv"],
+        default="json",
+        help="Format of the input file: json lines or CSV",
+    )
+    parser.add_argument(
+        "--output",
+        type=Path,
+        help="Optional path to write the aggregated counts as JSON",
+    )
     return parser.parse_args()
 
 
@@ -45,13 +54,22 @@ def metric_counts_per_day(records):
     return counts
 
 
+def write_counts(counts, path: Path) -> None:
+    """Write ``counts`` mapping to ``path`` in JSON format."""
+    with path.open("w") as f:
+        json.dump(dict(counts), f, indent=2)
+
+
 def main():
     args = parse_args()
     path = Path(args.file)
     records = list(load_records(path, args.format))
     counts = metric_counts_per_day(records)
-    for day in sorted(counts):
-        print(f"{day} {counts[day]}")
+    if args.output:
+        write_counts(counts, args.output)
+    else:
+        for day in sorted(counts):
+            print(f"{day} {counts[day]}")
 
 
 if __name__ == "__main__":
