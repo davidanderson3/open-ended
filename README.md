@@ -23,3 +23,8 @@ python metrics.py recordings.jsonl
 ```
 
 This prints one line per day with the number of records observed on that date.
+
+## Dream Script
+
+The `dream.py` program prints a randomly generated field of ASCII stars—
+a tiny fragment of a cosmic dream rendered in the terminal.
