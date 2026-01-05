@@ -2,6 +2,32 @@
 
 These guidelines should be consulted before any new writing or revisions.
 
+## Project Snapshot
+Working premise: a narrator discovers a human skull on a Potomac River island and keeps it, choosing not to report it. The present-day investigation into the skull’s identity interrupts and refracts the narrator’s backstory, which explains the impulse to keep the skull in the first place. The narrative revisits the skull at intervals, but the emotional center is the narrator’s earlier life.
+
+### Core Influences
+- John Irving: long-arc character studies, consequential objects, and the tragicomic collision of the everyday with the fateful.
+- Donna Tartt: immersive voice, moral ambiguity, and meticulous atmosphere.
+- *Less* (Andrew Sean Greer): wry, observant humor with tender, human stakes.
+
+## Outline Goals
+- Keep the skull plotline as a recurring throughline rather than the dominant thread.
+- Use the investigation to reveal the narrator’s secrets and self-mythology.
+- Build a layered backstory that steadily reframes the present.
+- Let humor and melancholy coexist without cancelling each other out.
+
+## Outline Questions (to answer before drafting)
+- Who is the narrator at the moment they find the skull (age, occupation, emotional state)?
+- What is the narrator’s earliest formative loss or rupture?
+- Which relationship most complicates the narrator’s moral choices about the skull?
+- What personal belief or superstition makes keeping the skull feel necessary?
+- What would be at risk if the narrator reported the find immediately?
+- How does the island setting (season, weather, local history) shape the opening?
+- What piece of evidence resurfaces later to connect the skull to the narrator’s past?
+- What does the narrator want that the skull complicates or delays?
+- When does the narrator first consider letting the skull go, and why?
+- What final discovery changes the narrator’s understanding of their own life?
+
 ## Voice & Style
 - Aim for literary realism with layered narration, emotional depth, and a wry, observant tone.
 - Favor intimate, character-driven scenes with a slightly eccentric edge.
