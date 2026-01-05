@@ -1,32 +1,44 @@
-# Open-Ended Neighborhood Scores
+# Novel Project Guidelines
 
-This repo contains a small HTML table ranking a selection of neighborhoods in the southeastern United States. The scoring system is out of 27 and each entry includes short notes—mainly about how state tax policies affect affordability.
+These guidelines should be consulted before any new writing or revisions.
 
-The `index.html` file wraps the table with basic HTML and CSS so it can be viewed as a standalone page. The `live.html` file contains the same table without additional page chrome.
+## Voice & Style
+- Aim for literary realism with layered narration, emotional depth, and a wry, observant tone.
+- Favor intimate, character-driven scenes with a slightly eccentric edge.
+- Keep sentences varied in length; allow for rhythmic, reflective passages.
+- Use precise, evocative detail over abstraction.
 
-Columns in the table:
+## Structure & Scope
+- Build a multi-generational or long-arc story with interlocking timelines.
+- Open with a scene that hints at a consequential event; reveal its meaning gradually.
+- Maintain a steady accumulation of thematic motifs and recurring objects.
 
-- **Rank** – emoji numbers representing the position.
-- **Neighborhood** – name of the neighborhood.
-- **Location** – city and state.
-- **New Score (/27)** – composite score out of 27.
-- **Notes** – contextual notes (e.g., tax situations).
+## Characterization
+- Create fully realized characters with contradictions and private longings.
+- Avoid archetypes; every character should surprise in at least one way.
+- Anchor the protagonist’s voice in a distinctive worldview and vocabulary.
 
-These files are static and intended only for reference.
+## Setting & Atmosphere
+- Treat setting as a character: specific, textured, and historically grounded.
+- Use sensory details to establish mood and social context.
+- Show the passage of time through changes in place and people.
 
-## Metrics
+## Themes & Motifs
+- Explore family legacy, memory, ambition, and the cost of reinvention.
+- Weave in a few recurring symbols or images to unify the narrative.
+- Allow ambiguity; do not over-explain motivations or outcomes.
 
-The `metrics.py` helper aggregates recordings or event logs to simple counts per day. Provide a JSON lines or CSV file containing a `timestamp` (or `date`) field for each recording:
+## Dialogue
+- Keep dialogue natural but slightly heightened for clarity and subtext.
+- Avoid exposition-heavy exchanges; let tension and implication do the work.
+- Distinguish voices through cadence, diction, and emotional restraint.
 
-```bash
-python metrics.py recordings.jsonl
-```
+## Revision Principles
+- Prioritize clarity without flattening complexity.
+- Trim anything that feels procedural, generic, or overly explanatory.
+- Revisit openings and endings of scenes for maximum resonance.
 
-This prints one line per day with the number of records observed on that date.
-Pass ``--output`` with a ``.json`` or ``.csv`` file to write the aggregated
-counts in that format instead of printing them.
-
-## Dream Script
-
-The `dream.py` program prints a randomly generated field of ASCII stars—
-a tiny fragment of a cosmic dream rendered in the terminal.
+## Continuity
+- Maintain a living list of characters, relationships, and key events.
+- Track dates, ages, and geographic movement for consistency.
+- Reconfirm tone alignment with these guidelines after each major draft.
