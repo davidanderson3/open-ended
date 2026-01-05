@@ -42,3 +42,56 @@ These guidelines should be consulted before any new writing or revisions.
 - Maintain a living list of characters, relationships, and key events.
 - Track dates, ages, and geographic movement for consistency.
 - Reconfirm tone alignment with these guidelines after each major draft.
+
+## Codex-Friendly Chunk Strategy
+Design the manuscript so each file is small, coherent, and self-contained.
+
+### Chunking Options
+Choose a structure that fits your draft stage:
+- **Outline + Chapters**
+  - `00_outline.md` (global outline, act structure, key beats)
+  - `01_ch01.md`, `02_ch02.md`, ...
+- **Outline + Scenes**
+  - `00_outline.md`
+  - `scenes/01a_scene.md`, `scenes/01b_scene.md`, ...
+- **Outline + Acts + Chapters**
+  - `00_outline.md`
+  - `act1/01_ch01.md`, `act1/02_ch02.md`, ...
+  - `act2/...`, `act3/...`
+
+### Per-File Header Template
+Add a short context header at the top of every chapter/scene file:
+
+```
+# Chapter X: Title
+## Context
+- Timeline position:
+- POV:
+- Location:
+- Key state (before):
+- Key state (after):
+- Continuity notes / open threads:
+```
+
+### Supporting Reference Files
+Keep continuity centralized and explicit:
+- `series_bible.md` (characters, settings, timeline, lore, rules)
+- `glossary.md` (names, terms, recurring motifs)
+- `continuity_log.md` (decisions, retcons, changes)
+
+### Naming and Size Guidance
+- Use numeric prefixes for sorting: `00_outline.md`, `01_ch01.md`, ...
+- Avoid spaces; prefer underscores.
+- Target **1,000–3,000 words** per file, smaller for complex scenes.
+
+### Principles for Codex-Friendly Drafting
+- **Self-contained files:** Ensure each file can be edited in isolation.
+- **Stable structure:** Keep headers consistent and predictable.
+- **Small, coherent units:** Prefer short chapters or single-scene files.
+- **Single source of truth:** Update the series bible and continuity log.
+- **Explicit transitions:** Summarize what changed from the prior file.
+- **Consistent naming:** Preserve ordering with numeric prefixes.
+- **Track unresolved threads:** List open questions in every header.
+- **Avoid hidden dependencies:** Restate required details briefly.
+- **Minimize scope drift:** Keep to one POV/time/location when possible.
+- **Document changes:** Log revisions and retcons immediately.
