@@ -17,16 +17,16 @@ Working premise: a narrator discovers a human skull on a Potomac River island an
 - Let humor and melancholy coexist without cancelling each other out.
 
 ## Outline Questions (to answer before drafting)
-- Who is the narrator at the moment they find the skull (age, occupation, emotional state)?
-- What is the narrator’s earliest formative loss or rupture?
-- Which relationship most complicates the narrator’s moral choices about the skull?
-- What personal belief or superstition makes keeping the skull feel necessary?
-- What would be at risk if the narrator reported the find immediately?
-- How does the island setting (season, weather, local history) shape the opening?
-- What piece of evidence resurfaces later to connect the skull to the narrator’s past?
-- What does the narrator want that the skull complicates or delays?
-- When does the narrator first consider letting the skull go, and why?
-- What final discovery changes the narrator’s understanding of their own life?
+- Who is the narrator at the moment they find the skull (age, occupation, emotional state)? He is an adjunct professor, 42, barely getting by, just dumped. Never quite got over the hump.
+- What is the narrator’s earliest formative loss or rupture? He had a twin brother who spoke for him. He never learned to have his own identity, just leaches off of others. Is attractive but off-putting in an awkward way.
+- Which relationship most complicates the narrator’s moral choices about the skull? He only tells a pen pal. He is in love with her, but doesn't quite know it.
+- What personal belief or superstition makes keeping the skull feel necessary? He will always make the creative choice at the cost of practicality. He feels drawn to this object, there is a supernatural feeling, but nothing actually supernatural. He's supposed to find the owner. If he just finds the owner, this will complete something within him.
+- What would be at risk if the narrator reported the find immediately? For the narrator - a boring conclusion to the story. He is chasing a thrill.
+- How does the island setting (season, weather, local history) shape the opening? The island is scrubby, rocky, but there are mansions above.
+- What piece of evidence resurfaces later to connect the skull to the narrator’s past? It's definitely not connected to the narrators past.
+- What does the narrator want that the skull complicates or delays? He is using it as a distraction from moving forward in life, finding a partner, having kids.
+- When does the narrator first consider letting the skull go, and why? We don't know yet.
+- What final discovery changes the narrator’s understanding of their own life? Not sure.
 
 ## Voice & Style
 - Aim for literary realism with layered narration, emotional depth, and a wry, observant tone.
